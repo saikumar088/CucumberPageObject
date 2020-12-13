@@ -17,7 +17,7 @@ public class HooksStepdef2 {
 	
 	WebDriver driver=null;
 	
-	@Before(order=1)
+	@Before(order=2)
 	public void setUp() {
 		
 		driver= new ChromeDriver();
